@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+    <script>
+        function CreateAccount()
+        {
+            var Username = document.getElementById('username').value;
+            window.localStorage.setItem("Username", Username);
+        }
+    </script>
+
+    <center>
+
+    <form action="https://www.bowermans-guitars.com/account/accountcreated" method="">
+
+        <p style="color:white;">
+        
+        <label for="Username">Username: </label>
+        <input type="text" name="Username" id="username" placeholder="Create a Username"><br>
+
+        <br>
+
+        <label for="Password">Password: </label>
+        <input type="password" name="Password" id="password" placeholder="Create a Password"><br>
+
+        <br>
+
+        <label for="Email">Email: </label>
+        <input type="text" name="Email" id="email" placeholder="Enter email"><br>
+
+        <br>
+
+        <label for="Phone">Phone: </label>
+        <input type="text" name="Phone" id="phone" placeholder="Enter phone number"><br>
+
+        <br>
+
+        <input type="submit" value="Submit", onclick="CreateAccount()">
+
+        <br>
+
+        Have a account? <a href="https://www.bowermans-guitars.com/account/login">LOGIN</a>
+
+    </p>
+    </form>
+
+    </center>
+    
+
+</body>
+
+
+</html>

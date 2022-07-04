@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <link rel="stylesheet" href="index.css"/>
+
+            <script>
+
+            function HomeButton()
+            {
+                document.location="index.html"
+                console.log("Home");
+            }
+
+            function AccountButton()
+            {
+                document.location="account.html"
+                console.log("Account");
+            }
+            
+            function PodcastButton()
+            {
+                document.location="podcast.html"
+                console.log("Podcast");
+            }
+
+            </script>
+
+
+        </head>
+
+    <body>
+    
+        <div class="podcast">
+
+            <div class="header">
+                <input type="button" class = "homeButton" value="Home" onclick="HomeButton()">
+                <input type="button" class = "podcastButton" value="Podcast" onclick="PodcastButton()">
+                <input type="button" class = "accountButton" value="Account" onclick="AccountButton()">
+                <p class="podcastText">Podcast</p>
+            
+            </div>
+
+        </div>
+
+
+    </body>
+
+
+</html>

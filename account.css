@@ -1,0 +1,25 @@
+.userField, .passField, .loginButton
+{
+    position: relative;
+    top: 400px;
+    left: 850px;
+    width: 200px;
+}
+
+.loginText
+{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 230px;
+    left: 850px;
+}
+
+.loginButton
+{
+    position: relative;
+    width: 208px;
+    border: 1px;
+    color: white;
+    background-color: orangered;
+}

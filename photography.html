@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="photography.css"/>
+
+    <script>
+
+        function HomeButton()
+        {
+            document.location="index.html"
+        }
+
+        function AccountButton()
+        {
+            document.location="account.html"
+        }
+                
+        function PodcastButton()
+        {
+            document.location="podcast.html"
+        }
+
+        function PhotographyButton()
+        {
+            document.location="photography.html"
+        }
+
+        function Login()
+        {
+            console.log("Logging in...");
+        }
+
+    </script>
+
+
+</head>
+
+
+
+<body>
+
+    <div class="background">
+
+        <div class="header">
+            <input type="button" class = "headerButton" value="Home" onclick="HomeButton()">
+            <input type="button" class = "headerButton" value="Photography" onclick="PhotographyButton()">
+            <input type="button" class = "headerButton" value="Podcast" onclick="PodcastButton()">
+            <input type="button" class = "headerButton" value="Account" onclick="AccountButton()">
+            <p class="headerText">Photography</p>
+        </div>
+
+        <div class="contentBoxBackground">
+
+            <div class="photographySection">
+
+                <img src="/Lightning1.jpg" class="lightning1">
+                <img src="/Lightning2.jpg" class="lightning2">
+                <img src="/Lightning3.jpg" class="lightning3">
+                <img src="/Lightning4.jpg" class="lightning4">
+                <img src="/Lightning5.jpg" class="lightning5">
+                <img src="/Lightning6.jpg" class="lightning6">
+
+            </div>
+
+            
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>

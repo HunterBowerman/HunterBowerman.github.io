@@ -1,0 +1,13 @@
+.lightning1, .lightning2, .lightning3, .lightning4, .lightning5, .lightning6
+{
+    position: relative;
+    width: 550px;
+    height: 325px;
+}
+
+.photographySection
+{
+    position: relative;
+    top: 100px;
+    left: 75px;
+}

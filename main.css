@@ -1,0 +1,48 @@
+.headerButton
+{
+    color: white;
+    background-color: rgb(128, 63, 42);
+    border: 5px;
+    width: 150px;
+    height: 30px;
+    position: relative;
+
+    top: 3px;
+    left: 1265px;
+}
+
+.headerText
+{
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    
+    left: 5px;
+    top: -35px;
+}
+
+.header
+{
+    width: 1890px;
+    height: 35px;
+    background-color: rgb(34, 34, 34, 0.90);
+    position: relative;
+}
+
+.background
+{
+    width: 1890px;
+    height: 975px;
+    background-image: url("/Background.jpg");
+    position: relative;
+}
+
+.contentBoxBackground
+{
+    background-color: rgb(34,34,34, 0.80);
+    position: relative;
+    width: 1800px;
+    height: 875px;
+    top: 30px;
+    left: 45px;
+}

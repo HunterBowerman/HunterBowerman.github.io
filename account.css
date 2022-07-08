@@ -23,3 +23,13 @@
     color: white;
     background-color: orangered;
 }
+
+.registerText
+{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 325px;
+    left: 850px;
+
+}

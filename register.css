@@ -1,0 +1,35 @@
+.userField, .passField, .registerButton
+{
+    position: relative;
+    top: 400px;
+    left: 850px;
+    width: 200px;
+}
+
+.registerText
+{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 230px;
+    left: 850px;
+}
+
+.registerButton
+{
+    position: relative;
+    width: 208px;
+    border: 1px;
+    color: white;
+    background-color: orangered;
+}
+
+.loginText
+{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 325px;
+    left: 850px;
+
+}

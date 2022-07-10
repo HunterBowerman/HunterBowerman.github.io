@@ -1,0 +1,38 @@
+.music 
+{
+    
+}
+
+.musicSection
+{
+    position: relative;
+    width: 1700px;
+    height: 350px;
+    top: 25px;
+    left: 50px;
+    background-color: rgb(34, 34, 34);
+
+}
+
+.photoSection
+{
+    position: relative;
+    width: 1700px;
+    height: 350px;
+    top: 120px;
+    left: 50px;
+    background-color: rgb(34, 34, 34);
+}
+
+.photos 
+{
+
+}
+
+.text
+{
+    position: absolute;
+    font-size: xx-large;
+    top: -63px;
+    color: white;
+}

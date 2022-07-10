@@ -1,8 +1,3 @@
-.music 
-{
-    
-}
-
 .musicSection
 {
     position: relative;
@@ -24,9 +19,14 @@
     background-color: rgb(34, 34, 34);
 }
 
-.photos 
+.photoItem
 {
-
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    top: 5px;
+    left: 5px;
 }
 
 .text

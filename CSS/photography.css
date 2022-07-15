@@ -1,0 +1,18 @@
+.photo
+{
+    position: relative;
+    width: 550px;
+    height: 325px;
+    padding: 10px;
+}
+
+.scrollContainer
+{
+    position: relative;
+    width: 1800px;
+    height: 800px;
+    top: 30px;
+    left: 45px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

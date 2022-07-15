@@ -1,0 +1,29 @@
+.checkAccountBox
+{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(0, 0, 0, 0.75);
+    top: 285px;
+    left: 700px;
+}
+
+.text
+{
+    position: relative;
+    color: white;
+    font-size: x-large;
+    top: 5px;
+    left: 10px;
+}
+
+.deleteAccountButton
+{
+    position: relative;
+    width: 100px;
+    height: 25px;
+    top: 700px;
+    left: 825px;
+    color: white;
+    background-color: orange;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <link rel="stylesheet" href="/main.css"/>
+            <link rel="stylesheet" href="/CSS/account.css"/>
+
+
+            <script>
+
+                //Header Buttons
+                function HomeButton()
+                {
+                    document.location="index.html"
+                }
+
+                function AccountButton()
+                {
+                    document.location="account.html"
+                }
+                
+                function PodcastButton()
+                {
+                    document.location="podcast.html"
+                }
+
+                function PhotographyButton()
+                {
+                    document.location="photography.html"
+                }
+
+
+                //Account status
+                function CheckForAccount()
+                {
+                    if(localStorage.Username == null)
+                    {
+                        document.location="login.html"
+                        console.error("username not found");
+                    }
+                    else
+                    {
+                        console.log("Username: ", localStorage.Username);
+                    }
+
+
+
+                    if(localStorage.Password == null)
+                    {
+                        document.location="login.html"
+                        console.error("password not found");
+                    }
+                    else
+                    {
+                        console.log("Password: ", localStorage.Password);
+                    }
+                }
+
+                function DeleteAccount()
+                {
+                    localStorage.removeItem("Username");
+                    localStorage.removeItem("Password");
+
+                    document.location="login.html";
+                }
+
+                CheckForAccount();
+                
+            </script>
+
+
+        </head>
+
+    <body>
+
+        <div class="background">
+
+            <div class="header">
+                <input type="button" class = "headerButton" value="Home" onclick="HomeButton()">
+                <input type="button" class = "headerButton" value="Photography" onclick="PhotographyButton()">
+                <input type="button" class = "headerButton" value="Podcast" onclick="PodcastButton()">
+                <input type="button" class = "headerButton" value="Account" onclick="AccountButton()">
+                <p class="headerText">Bowermans Studios</p>
+                
+            </div>
+
+
+            <div class="contentBoxBackground">
+
+                <input type="button" class="deleteAccountButton" value="DeleteAccount" onclick="DeleteAccount()">
+                
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+
+</html>

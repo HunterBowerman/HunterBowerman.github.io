@@ -1,7 +1,7 @@
 .headerButton
 {
     color: white;
-    background-color: rgb(128, 63, 42);
+    background-color: orangered;
     position: relative;
     width: 150px;
     height: 30px;
@@ -24,7 +24,7 @@
 .header
 {
     position: relative;
-    width: auto;
+    width: 1890px;
     height: 35px;
     background-color: rgb(34, 34, 34, 0.90);
 }
@@ -32,7 +32,7 @@
 .background
 {
     position: relative;
-    width: auto;
+    width: 1890px;
     height: 975px;
     background-image: url("Settings/Background.jpg");
 }

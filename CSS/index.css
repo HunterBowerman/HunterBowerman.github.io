@@ -1,21 +1,51 @@
-.musicBox
+.welcomeBox
 {
     position: relative;
-    width: 1750px;
-    height: 350px;
+    
+    width: 1800px;
+    height: 400px;
     top: 25px;
-    left: 25px;
-    background: rgb(0, 0, 0, 0.50);
+    left: 30px;
+    
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.welcomeText1
+{
+    position: absolute;
+
+    top: 15px;
+    left: 300px;
+
+    color: white;
+
+    font-size: 35px;
+}
+
+.welcomeText2
+{
+    position: absolute;
+
+    top: 50px;
+    left: 600px;
+
+    color: white;
+
+    font-size: 35px;
 }
 
 .photoBox
 {
     position: relative;
-    width: 1750px;
-    height: 400px;
-    top: 100px;
-    left: 25px;
+
+    width: 1800px;
+    height: 450px;
+
+    top: 50px;
+    left: 30px;
+
     background: rgb(0, 0, 0, 0.50);
+
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -28,9 +58,9 @@
     height: 250px;
 
     
-    left: 45px;
+    left: 20px;
 
-    padding: 25px;
+    padding: 40px;
 
 
 }

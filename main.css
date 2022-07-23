@@ -3,12 +3,19 @@
     color: white;
     background-color: orangered;
     position: relative;
-    width: 150px;
+    width: 120px;
     height: 30px;
     border: 1px;
 
     top: 3px;
     left: 1265px;
+}
+
+.headerButton:hover
+{
+    transition-duration: 0.1s;
+
+    background-color: black;
 }
 
 .headerText
@@ -39,10 +46,10 @@
 
 .contentBoxBackground
 {
-    background-color: rgb(34,34,34, 0.80);
+    background-color: rgb(34,34,34, 0.50);
     position: relative;
-    width: 1800px;
-    height: 875px;
-    top: 30px;
-    left: 45px;
+    width: 1865px;
+    height: 915px;
+    top: 10px;
+    left: 10px;
 }

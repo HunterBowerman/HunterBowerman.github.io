@@ -1,0 +1,46 @@
+.portfolioPhoto
+{
+    position: relative;
+
+    top: 25px;
+    left: 25px;
+
+    width: 250px;
+    height: 285px;
+}
+
+.photoName
+{
+    position: absolute;
+
+    top: 285px;
+    left: 25px;
+
+    color: white;
+
+    font-size: 25px;
+}
+
+.textBox
+{
+    position: relative;
+    
+    top: -275px;
+    left: 300px;
+
+    width: 1525px;
+    height: 885px;
+
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.portfolioText
+{
+    position: absolute;
+
+    top: -25px;
+    left: 10px;
+
+    color: white;
+    font-size: 30px;
+}

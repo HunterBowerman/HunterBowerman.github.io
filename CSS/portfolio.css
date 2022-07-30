@@ -9,7 +9,7 @@
     height: 285px;
 }
 
-.photoName
+.photoDetails
 {
     position: absolute;
 
@@ -21,7 +21,7 @@
     font-size: 25px;
 }
 
-.textBox
+.musicianBox
 {
     position: relative;
     
@@ -29,18 +29,29 @@
     left: 300px;
 
     width: 1525px;
-    height: 885px;
+    height: 175px;
 
     background-color: rgba(0, 0, 0, 0.50);
 }
 
-.portfolioText
+.musicianText
 {
     position: absolute;
 
-    top: -25px;
+    top: 35px;
     left: 10px;
 
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.musicTextHeader
+{
+    position: absolute;
+
+    top: -55px;
+    left: 600px;
+
+    color: white;
+    font-size: 50px;
 }

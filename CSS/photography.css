@@ -5,17 +5,17 @@
     width: 550px;
     height: 325px;
     
-    padding: 10px;
+    padding: 25px;
 }
 
 .scrollContainer
 {
     position: relative;
 
-    width: 1800px;
+    width: 1850px;
     height: 900px;
     top: 10px;
-    left: 45px;
+    left: 10px;
 
     overflow-y: scroll;
     scroll-behavior: smooth;

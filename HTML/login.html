@@ -6,6 +6,8 @@
 <head>
     <title>Login</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/main.css"/>
     <link rel="stylesheet" href="/CSS/login.css"/>
 
@@ -19,11 +21,6 @@
         function AccountButton()
         {
             document.location="account.html"
-        }
-        
-        function PodcastButton()
-        {
-            document.location="podcast.html"
         }
 
         function PhotographyButton()
@@ -43,15 +40,12 @@
 
 
 <body>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <div class="background">
 
         <div class="header">
             <input type="button" class = "headerButton" value="Home" onclick="HomeButton()">
             <input type="button" class = "headerButton" value="Photography" onclick="PhotographyButton()">
-            <input type="button" class = "headerButton" value="Podcast" onclick="PodcastButton()">
             <input type="button" class = "headerButton" value="Account" onclick="AccountButton()">
             <input type="button" class = "headerButton" value="Portfolio" onclick="PortfolioButton()">
             <p class="headerText">Login</p>

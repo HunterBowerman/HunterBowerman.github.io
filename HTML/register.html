@@ -2,72 +2,74 @@
 <html>
 
 <head>
+
+    <title>Register</title>
+
     <link rel="stylesheet" href="/main.css"/>
     <link rel="stylesheet" href="/CSS/register.css"/>
 
     <script>
 
         function HomeButton()
-            {
-                document.location="index.html"
-            }
+        {
+            document.location="index.html"
+        }
 
-            function AccountButton()
-            {
-                document.location="account.html"
-            }
+        function AccountButton()
+        {
+            document.location="account.html"
+        }
                 
-            function PodcastButton()
+        function PodcastButton()
+        {
+            document.location="podcast.html"
+        }
+
+        function PhotographyButton()
+        {
+            document.location="photography.html"
+        }
+
+        function PortfolioButton()
+        {
+            document.location="portfolio.html"
+        }
+
+
+
+        function RegisterButton()
+        {
+            var Username = document.getElementById('username').value;
+            var Password = document.getElementById('password').value;
+
+            if(document.getElementById('username').value == 0)
             {
-                document.location="podcast.html"
+                console.error("Empty username");
+                return;
             }
 
-            function PhotographyButton()
+            if(document.getElementById('password').value == 0)
             {
-                document.location="photography.html"
+                console.error("Empty password");
+                return;
             }
 
-            function PortfolioButton()
+            if(document.getElementById('username').value != 0 && document.getElementById('password').value != 0)
             {
-                document.location="portfolio.html"
+                window.localStorage.setItem("Username", Username);
+                window.localStorage.setItem("Password", Password);
+
+                document.location="account.html";
             }
-
-
-
-            function RegisterButton()
-            {
-                var Username = document.getElementById('username').value;
-                var Password = document.getElementById('password').value;
-
-                if(document.getElementById('username').value == 0)
-                {
-                    console.error("Empty username");
-                    return;
-                }
-
-                if(document.getElementById('password').value == 0)
-                {
-                    console.error("Empty password");
-                    return;
-                }
-
-                if(document.getElementById('username').value != 0 && document.getElementById('password').value != 0)
-                {
-                    window.localStorage.setItem("Username", Username);
-                    window.localStorage.setItem("Password", Password);
-
-                    document.location="account.html";
-                }
-            }
+        }
 
     </script>
+
 </head>
 
 
 
 <body>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <div class="background">
 
@@ -89,9 +91,8 @@
             <p class="registerText">Register</p>
             <p class="loginText">Already own an account? <a href="login.html">Login</a></p>
         </div>
+
     </div>
-
-
 
 </body>
 

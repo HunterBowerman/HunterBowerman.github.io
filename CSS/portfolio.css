@@ -25,7 +25,7 @@
 {
     position: relative;
     
-    top: -275px;
+    top: -245px;
     left: 300px;
 
     width: 1525px;
@@ -38,19 +38,19 @@
 {
     position: absolute;
 
-    top: 35px;
+    top: -25px;
     left: 10px;
 
     color: white;
     font-size: 25px;
 }
 
-.musicTextHeader
+.musicBoxText
 {
     position: absolute;
 
     top: -55px;
-    left: 600px;
+    left: 875px;
 
     color: white;
     font-size: 50px;

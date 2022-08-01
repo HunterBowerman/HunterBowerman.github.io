@@ -11,7 +11,7 @@
     border: 1px;
 
     top: 3px;
-    left: 73%;
+    left: 1385px;
 }
 
 .headerButton:hover
@@ -34,7 +34,7 @@
 .header
 {
     position: relative;
-    width: 100%;
+    width: 1885px;
     height: 35px;
     background-color: rgb(34, 34, 34, 0.90);
 }
@@ -51,7 +51,7 @@
 {
     background-color: rgb(34,34,34, 0.50);
     position: relative;
-    width: 99%;
+    width: 1865px;
     height: 915px;
     top: 10px;
     left: 10px;

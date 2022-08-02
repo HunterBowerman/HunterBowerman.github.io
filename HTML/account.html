@@ -10,67 +10,8 @@
             <link rel="stylesheet" href="/CSS/account.css"/>
 
 
-            <script>
-
-                //Header Buttons
-                function HomeButton()
-                {
-                    document.location="index.html"
-                }
-
-                function AccountButton()
-                {
-                    document.location="account.html"
-                }
-
-                function PhotographyButton()
-                {
-                    document.location="photography.html"
-                }
-
-                function PortfolioButton()
-                {
-                    document.location="portfolio.html"
-                }
-
-
-                //Account status
-                function CheckForAccount()
-                {
-                    if(localStorage.Username == null)
-                    {
-                        document.location="login.html"
-                        console.error("username not found");
-                    }
-                    else
-                    {
-                        console.log("Username: ", localStorage.Username);
-                    }
-
-
-
-                    if(localStorage.Password == null)
-                    {
-                        document.location="login.html"
-                        console.error("password not found");
-                    }
-                    else
-                    {
-                        console.log("Password: ", localStorage.Password);
-                    }
-                }
-
-                function DeleteAccount()
-                {
-                    localStorage.removeItem("Username");
-                    localStorage.removeItem("Password");
-
-                    document.location="login.html";
-                }
-
-                CheckForAccount();
-                
-            </script>
+            <script src="/JavaScript/account.js"></script>
+            <script src="/JavaScript/UserManagement.js"></script>
 
 
         </head>

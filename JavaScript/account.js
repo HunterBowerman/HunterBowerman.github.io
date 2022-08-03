@@ -20,7 +20,7 @@ function PortfolioButton()
 }
 
 
-//Account Functions
+//Deletes the account
 function DeleteAccount()
 {
     localStorage.removeItem("Username");
@@ -29,6 +29,12 @@ function DeleteAccount()
     document.location="login.html";
 }
 
+function Logout()
+{
+    
+}
+
+//Redirects user to the ragister page if account is not found
 function RedirectIfNull()
 {
 
@@ -38,5 +44,11 @@ function RedirectIfNull()
     }
 
 }
-
 RedirectIfNull();
+
+//displays the users name
+function DisplayUsername()
+{
+    
+}
+DisplayUsername();

@@ -42,6 +42,6 @@ function RegisterButton()
         window.localStorage.setItem("Username", Username);
         window.localStorage.setItem("Password", Password);
 
-        document.location="account.html";
+        document.location="login.html";
     }
 }

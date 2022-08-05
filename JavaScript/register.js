@@ -42,6 +42,8 @@ function RegisterButton()
         window.localStorage.setItem("Username", Username);
         window.localStorage.setItem("Password", Password);
 
+        console.log("Registerd: Username: ", localStorage.Username, " Password: ", localStorage.Password);
+
         document.location="login.html";
     }
 }

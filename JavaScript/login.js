@@ -1,3 +1,6 @@
+var rememberMe;
+
+
 function HomeButton()
 {
     document.location="index.html"
@@ -21,8 +24,6 @@ function PortfolioButton()
 
 function LoginButton()
 {
-    var x = true;
-
     var Username = document.getElementById('username').value;
     var Password = document.getElementById('password').value;
 

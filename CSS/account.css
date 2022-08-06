@@ -21,8 +21,19 @@
     position: relative;
     width: 100px;
     height: 25px;
-    top: 700px;
-    left: 825px;
+    top: 800px;
+    left: 905px;
+    color: white;
+    background-color: orange;
+}
+
+.logoutAccountButton
+{
+    position: relative;
+    width: 100px;
+    height: 25px;
+    top: 765px;
+    left: 800px;
     color: white;
     background-color: orange;
 }

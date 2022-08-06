@@ -1,27 +1,3 @@
-var rememberMe;
-
-
-function HomeButton()
-{
-    document.location="index.html"
-}
-
-function AccountButton()
-{
-    document.location="account.html"
-}
-
-function PhotographyButton()
-{
-    document.location="photography.html"
-}
-
-function PortfolioButton()
-{
-    document.location="portfolio.html"
-}
-
-
 function LoginButton()
 {
     var Username = document.getElementById('username').value;
@@ -47,9 +23,32 @@ function LoginButton()
         console.log("Passowrd was found");
     }
 
-    if(Username && Password != null)
+    if(Username == localStorage.Username && Password == localStorage.Password)
     {
-        document.location="account.html"
+        document.location="account.html";
     }
     
+}
+
+
+
+//Header Buttons
+function HomeButton()
+{
+    document.location="index.html"
+}
+
+function AccountButton()
+{
+    document.location="account.html"
+}
+
+function PhotographyButton()
+{
+    document.location="photography.html"
+}
+
+function PortfolioButton()
+{
+    document.location="portfolio.html"
 }

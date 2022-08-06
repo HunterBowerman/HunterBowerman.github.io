@@ -20,7 +20,7 @@ function PortfolioButton()
 
 
 
-function RegisterButton()
+function StoreUsersInfo()
 {
     var Username = document.getElementById('username').value;
     var Password = document.getElementById('password').value;

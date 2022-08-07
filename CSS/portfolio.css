@@ -9,6 +9,19 @@
     height: 285px;
 }
 
+.portfolioPhotoPanel
+{
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+
+    width: 280px;
+    height: 895px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .photoDetails
 {
     position: absolute;
@@ -31,7 +44,7 @@
     width: 1525px;
     height: 175px;
 
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .musicianText
@@ -49,19 +62,18 @@
 {
     position: absolute;
 
-    top: -55px;
+    top: -60px;
     left: 875px;
 
     color: white;
     font-size: 50px;
 }
 
-
 .programmerBoxText
 {
     position: absolute;
 
-    top: 175px;
+    top: 165px;
     left: 875px;
 
     color: white;
@@ -78,10 +90,45 @@
     width: 1525px;
     height: 175px;
 
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .programmerText
+{
+    position: absolute;
+
+    top: -25px;
+    left: 10px;
+
+    color: white;
+    font-size: 25px;
+}
+
+.photographerBoxText
+{
+    position: absolute;
+
+    top: 400px;
+    left: 875px;
+
+    color: white;
+    font-size: 50px;
+}
+
+.photographerBox
+{
+    position: relative;
+    
+    top: -125px;
+    left: 300px;
+
+    width: 1525px;
+    height: 175px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.photographerText
 {
     position: absolute;
 

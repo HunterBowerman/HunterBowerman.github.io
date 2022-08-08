@@ -1,25 +1,3 @@
-function HomeButton()
-{
-    document.location="index.html"
-}
-
-function AccountButton()
-{
-    document.location="account.html"
-}
-
-function PhotographyButton()
-{
-    document.location="photography.html"
-}
-
-function PortfolioButton()
-{
-    document.location="portfolio.html"
-}
-
-
-
 function StoreUsersInfo()
 {
     var Username = document.getElementById('username').value;
@@ -46,4 +24,27 @@ function StoreUsersInfo()
 
         document.location="login.html";
     }
+}
+
+
+
+//Header Buttons
+function HomeButton()
+{
+    document.location="/HTML/index.html"
+}
+
+function AccountButton()
+{
+    document.location="/HTML/account.html"
+}
+
+function PhotographyButton()
+{
+    document.location="/Photography/photography.html"
+}
+
+function PortfolioButton()
+{
+    document.location="/HTML/portfolio.html"
 }

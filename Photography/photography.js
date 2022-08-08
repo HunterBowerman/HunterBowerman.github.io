@@ -21,3 +21,8 @@ function PortfolioButton()
 {
     document.location="/HTML/portfolio.html"
 }
+
+function LightningButton()
+{
+    document.location="/Photography/Lightning.html"
+}

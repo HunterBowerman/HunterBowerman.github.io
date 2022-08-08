@@ -35,20 +35,20 @@ function LoginButton()
 //Header Buttons
 function HomeButton()
 {
-    document.location="index.html"
+    document.location="/HTML/index.html"
 }
 
 function AccountButton()
 {
-    document.location="account.html"
+    document.location="/HTML/account.html"
 }
 
 function PhotographyButton()
 {
-    document.location="photography.html"
+    document.location="/Photography/photography.html"
 }
 
 function PortfolioButton()
 {
-    document.location="portfolio.html"
+    document.location="/HTML/portfolio.html"
 }

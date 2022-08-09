@@ -21,13 +21,3 @@ function PortfolioButton()
 {
     document.location="/HTML/portfolio.html"
 }
-
-function LightningButton()
-{
-    document.location="/Photography/Lightning.html"
-}
-
-function StormStructureButton()
-{
-    document.location="/Photography/StormStructure.html"
-}

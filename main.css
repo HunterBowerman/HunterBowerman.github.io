@@ -4,11 +4,11 @@
 
     width: 100%;
     max-width: 1920px;
-    min-width: 480px;
+    min-width: 475px;
 
     height: 100%;
     max-height: 950px;
-    min-height: 480px;
+    min-height: 875px;
 
     background-image: url("Settings/Background.jpg");
 }
@@ -19,11 +19,11 @@
 
     width: 100%;
     max-width: 1865px;
-    min-width: 480px;
+    min-width: 475px;
 
     height: 100%;
     max-height: 865px;
-    min-height: 480px;
+    min-height: 850px;
 
     top: 10px;
     left: 10px;
@@ -37,7 +37,7 @@
 
     width: 100%;
     max-width: 1920px;
-    min-width: 480px;
+    min-width: 475px;
 
     height: 100%;
     max-height: 35px;
@@ -57,7 +57,7 @@
     width: 120px;
     height: 30px;
 
-    border: 1px;
+    border: 10px;
 
     top: 3px;
     left: 1385px;
@@ -72,10 +72,12 @@
 
 .headerText
 {
-    color: white;
-    font-size: xx-large;
     position: absolute;
     
-    left: 5px;
+    color: white;
+
+    font-size: 35px;
+
+    left: 10px;
     top: -35px;
 }

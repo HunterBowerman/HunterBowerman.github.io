@@ -68,7 +68,7 @@
 
     height: auto;
     max-height: 175px;
-    min-height: none;
+    min-height: 150px;
 
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -78,7 +78,7 @@
     position: absolute;
 
     top: -60px;
-    left: 875px;
+    left: 230px;
 
     color: white;
     font-size: 50px;
@@ -97,7 +97,7 @@
 
     height: auto;
     max-height: 175px;
-    min-height: none;
+    min-height: 150px;
 
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -106,8 +106,8 @@
 {
     position: absolute;
 
-    top: 165px;
-    left: 875px;
+    top: 150px;
+    left: 230px;
 
     color: white;
     font-size: 50px;
@@ -117,7 +117,7 @@
 {
     position: relative;
     
-    top: 175px;
+    top: 150px;
     left: 225px;
 
     width: auto;
@@ -126,7 +126,7 @@
 
     height: auto;
     max-height: 175px;
-    min-height: none;
+    min-height: 150px;
 
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -135,8 +135,8 @@
 {
     position: absolute;
 
-    top: 400px;
-    left: 875px;
+    top: 350px;
+    left: 230px;
 
     color: white;
     font-size: 50px;

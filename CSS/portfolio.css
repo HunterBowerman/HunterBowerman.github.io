@@ -9,10 +9,9 @@
     max-width: 250px;
     min-width: 150px;
 
-
     height: 100%;
     max-height: 285px;
-    min-height: 175px;
+    min-height: 125px;
 }
 
 .portfolioPhotoPanel
@@ -24,12 +23,11 @@
 
     width: 100%;
     max-width: 280px;
-    min-width: 180px;
-
+    min-width: 200px;
 
     height: 100%;
     max-height: 830px;
-    min-height: none;
+    min-height: 800px;
 
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -41,12 +39,9 @@
     top: 295px;
     left: 25px;
 
-    width: auto;
-    height: auto;
-
     color: white;
 
-    font-size: 20px;
+    font-size: auto;
 }
 
 .musicianBox
@@ -58,7 +53,7 @@
 
     width: 100%;
     max-width: 1525px;
-    min-width: 1225px;
+    min-width: 475px;
 
     height: 175px;
     max-height: 175px;
@@ -71,11 +66,11 @@
 {
     position: absolute;
 
-    top: -25px;
+    top: -10px;
     left: 10px;
 
     color: white;
-    font-size: 25px;
+    font-size: auto;
 }
 
 .musicBoxText
@@ -109,7 +104,7 @@
 
     width: 100%;
     max-width: 1525px;
-    min-width: 1225px;
+    min-width: 475px;
 
     height: 175px;
     max-height: 175px;
@@ -122,11 +117,11 @@
 {
     position: absolute;
 
-    top: -25px;
+    top: -10px;
     left: 10px;
 
     color: white;
-    font-size: 25px;
+    font-size: auto;
 }
 
 .photographerBoxText
@@ -149,7 +144,7 @@
 
     width: 100%;
     max-width: 1525px;
-    min-width: 1225px;
+    min-width: 475px;
 
     height: 175px;
     max-height: 175px;
@@ -162,9 +157,9 @@
 {
     position: absolute;
 
-    top: -25px;
+    top: -10px;
     left: 10px;
 
     color: white;
-    font-size: 25px;
+    font-size: auto;
 }

@@ -19,11 +19,11 @@
 
     width: 100%;
     max-width: 1865px;
-    min-width: 475px;
+    min-width: 430px;
 
     height: 100%;
     max-height: 865px;
-    min-height: none;
+    min-height: 430px;
 
     top: 10px;
     left: 10px;

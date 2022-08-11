@@ -60,7 +60,7 @@
     position: relative;
     
     top: 45px;
-    left: 300px;
+    left: 225px;
 
     width: auto;
     max-width: 1525px;
@@ -84,6 +84,24 @@
     font-size: 50px;
 }
 
+.programmerBox
+{
+    position: relative;
+    
+    top: 100px;
+    left: 225px;
+
+    width: auto;
+    max-width: 1525px;
+    min-width: 400px;
+
+    height: 175px;
+    max-height: 175px;
+    min-height: none;
+
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .programmerBoxText
 {
     position: absolute;
@@ -95,12 +113,12 @@
     font-size: 50px;
 }
 
-.programmerBox
+.photographerBox
 {
     position: relative;
     
-    top: 100px;
-    left: 300px;
+    top: 175px;
+    left: 225px;
 
     width: auto;
     max-width: 1525px;
@@ -122,22 +140,4 @@
 
     color: white;
     font-size: 50px;
-}
-
-.photographerBox
-{
-    position: relative;
-    
-    top: 175px;
-    left: 300px;
-
-    width: auto;
-    max-width: 1525px;
-    min-width: 400px;
-
-    height: 175px;
-    max-height: 175px;
-    min-height: none;
-
-    background-color: rgba(0, 0, 0, 0.75);
 }

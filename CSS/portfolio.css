@@ -60,11 +60,11 @@
     top: 45px;
     left: 225px;
 
-    width: auto;
+    width: 75%;
     max-width: 1525px;
     min-width: 325px;
 
-    height: auto;
+    height: 75%;
     max-height: 175px;
     min-height: 150px;
 
@@ -75,7 +75,7 @@
 {
     position: absolute;
 
-    top: -60px;
+    top: -55px;
     left: 230px;
 
     color: white;
@@ -89,11 +89,11 @@
     top: 100px;
     left: 225px;
 
-    width: auto;
+    width: 75%;
     max-width: 1525px;
     min-width: 325px;
 
-    height: auto;
+    height: 75%;
     max-height: 175px;
     min-height: 150px;
 
@@ -104,7 +104,7 @@
 {
     position: absolute;
 
-    top: 150px;
+    top: 175px;
     left: 230px;
 
     color: white;
@@ -118,11 +118,11 @@
     top: 150px;
     left: 225px;
 
-    width: auto;
+    width: 75%;
     max-width: 1525px;
     min-width: 325px;
 
-    height: auto;
+    height: 75%;
     max-height: 175px;
     min-height: 150px;
 
@@ -133,7 +133,7 @@
 {
     position: absolute;
 
-    top: 350px;
+    top: 400px;
     left: 230px;
 
     color: white;

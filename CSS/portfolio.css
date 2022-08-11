@@ -2,8 +2,8 @@
 {
     position: relative;
 
-    top: 25px;
-    left: 25px;
+    top: 10px;
+    left: 15px;
 
     width: 100%;
     max-width: 250px;
@@ -21,26 +21,37 @@
     top: 10px;
     left: 10px;
 
-    width: 100%;
+    width: auto;
     max-width: 280px;
-    min-width: 175px;
+    min-width: 125px;
 
-    height: 100%;
+    height: auto;
     max-height: 830px;
-    min-height: 800px;
+    min-height: 775px;
 
     background-color: rgba(0, 0, 0, 0.75);
 }
 
-.photoDetails
+.portfolioPhotoDetails
 {
     position: absolute;
 
-    top: 295px;
-    left: 25px;
+    top: 285px;
+    left: 15px;
 
     color: white;
 
+    font-size: auto;
+}
+
+.musicianText, .programmerText, .photographerText
+{
+    position: absolute;
+
+    top: -10px;
+    left: 10px;
+
+    color: white;
     font-size: auto;
 }
 
@@ -48,7 +59,7 @@
 {
     position: relative;
     
-    top: -245px;
+    top: 45px;
     left: 300px;
 
     width: 100%;
@@ -60,17 +71,6 @@
     min-height: none;
 
     background-color: rgba(0, 0, 0, 0.75);
-}
-
-.musicianText
-{
-    position: absolute;
-
-    top: -10px;
-    left: 10px;
-
-    color: white;
-    font-size: auto;
 }
 
 .musicBoxText
@@ -99,7 +99,7 @@
 {
     position: relative;
     
-    top: -185px;
+    top: 100px;
     left: 300px;
 
     width: 100%;
@@ -111,17 +111,6 @@
     min-height: none;
 
     background-color: rgba(0, 0, 0, 0.75);
-}
-
-.programmerText
-{
-    position: absolute;
-
-    top: -10px;
-    left: 10px;
-
-    color: white;
-    font-size: auto;
 }
 
 .photographerBoxText
@@ -139,7 +128,7 @@
 {
     position: relative;
     
-    top: -125px;
+    top: 175px;
     left: 300px;
 
     width: 100%;
@@ -151,15 +140,4 @@
     min-height: none;
 
     background-color: rgba(0, 0, 0, 0.75);
-}
-
-.photographerText
-{
-    position: absolute;
-
-    top: -10px;
-    left: 10px;
-
-    color: white;
-    font-size: auto;
 }

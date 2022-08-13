@@ -45,9 +45,6 @@
     position: absolute;
     
     color: white;
-
-    left: 10px;
-    top: -10px;
 }
 
 
@@ -70,6 +67,10 @@
 .headerText
 {
     font-size: 15px;
+
+    float: left;
+    left: 10px;
+    top: -10px;
 }
 
 .headerButton
@@ -110,7 +111,8 @@
 {
     font-size: 25px;
 
-    top: -25px;
+    left: 10px;
+    top: -20px;
 }
 
 .headerButton

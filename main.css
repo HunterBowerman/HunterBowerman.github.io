@@ -81,6 +81,8 @@
     width: 50px;
     height: 25px;
 
+    margin: 3px;
+
     top: 3px;
     left: -30px;
 }
@@ -116,6 +118,8 @@
 {
     width: 125px;
     height: 25px;
+
+    margin: 3px;
 
     top: 3px;
     left: -30px;

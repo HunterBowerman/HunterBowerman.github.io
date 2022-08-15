@@ -25,15 +25,16 @@
     background-color: rgb(35, 35, 35, 0.75);
 }
 
-
 .headerButton
 {
     position: relative;
 
+    float: right;
+
+    border: 0px;
+
     color: white;
     background-color: orangered;
-
-    border: 1px;
 }
 
 .headerButton:hover
@@ -52,7 +53,7 @@
 
 
 
-@media (min-width: 500px) 
+@media (min-width: 400px) 
 {
 
 .background
@@ -81,7 +82,7 @@
     height: 25px;
 
     top: 3px;
-    left: 165px;
+    left: -30px;
 }
 
 }
@@ -117,7 +118,7 @@
     height: 25px;
 
     top: 3px;
-    left: 1375px;
+    left: -30px;
 }
 
 }
